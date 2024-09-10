@@ -1,0 +1,30 @@
+Hardhat Ignition 🚀
+
+Deploying [ UserInfoContract ]
+
+Batch #1
+  Executed UserInfoContract#UserInfoContract
+
+[ UserInfoContract ] successfully deployed 🚀
+
+Deployed Addresses
+
+UserInfoContract#UserInfoContract - 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+--------------------------------------------------------------------------------------------------
+Resuming existing deployment from ./ignition/deployments/chain-31337
+
+Deploying [ RideRequestContract ]
+
+Warning - previously executed futures are not in the module:
+ - UserInfoContract#UserInfoContract
+
+Batch #1
+  Executed RideRequestContract#RideRequestContract
+
+[ RideRequestContract ] successfully deployed 🚀
+
+Deployed Addresses
+
+UserInfoContract#UserInfoContract - 0x5FbDB2315678afecb367f032d93F642f64180aa3
+RideRequestContract#RideRequestContract - 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512

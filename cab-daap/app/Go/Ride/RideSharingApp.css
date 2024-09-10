@@ -1,0 +1,191 @@
+.ride-sharing-app {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .info-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+  }
+  
+  .arriving-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .distance-tag {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 4px 8px;
+    background-color: #38a169;
+    color: white;
+    border-radius: 16px;
+    font-size: 14px;
+  }
+  
+  .driver-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* border-radius: 8px; */
+  }
+  
+  .pickup-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  
+  .eta {
+    color: #3182ce;
+    font-weight: bold;
+  }
+  
+  .driver-details {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .driver-avatar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .driver-meta {
+    flex-grow: 1;
+  }
+  
+  .driver-name {
+    font-weight: bold;
+  }
+  
+  .vehicle-info {
+    font-size: 14px;
+    color: #718096;
+  }
+  
+  .driver-rating {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .message-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 16px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .message-button, .call-button {
+    flex: 1;
+    padding: 8px 16px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .message-button .icon, .call-button .icon {
+    margin-right: 8px;
+  }
+  
+  .safety-button {
+    position: absolute;
+    bottom: 245px;
+    right: 10px;
+    background-color: #3182ce;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+  .open-map-button {
+    position: absolute;
+    bottom: 245px;
+    left: 10px;
+    background-color: #3182ce;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .ride-action-buttons {
+    /* position: absolute;
+    bottom: 20px;
+    left: 50%; */
+    /* transform: translateX(-50%); */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* width: 90%;
+    max-width: 300px; */
+  }
+
+  .action-button {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .start-ride {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .start-ride:hover {
+    background-color: #45a049;
+  }
+
+  .complete-ride {
+    background-color: #2196F3;
+    color: white;
+  }
+
+  .complete-ride:hover {
+    background-color: #1e87db;
+  }
+
+  .cancel-ride {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .cancel-ride:hover {
+    background-color: #da190b;
+  }

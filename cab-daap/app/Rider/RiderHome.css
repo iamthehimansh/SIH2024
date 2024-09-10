@@ -1,0 +1,154 @@
+.rider-home {
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    padding: 16px;
+  }
+  
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .no-requests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 256px;
+  }
+  
+  .ride-request {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .ride-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .ride-time {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ride-time span {
+    font-size: 14px;
+    color: #666;
+    margin-left: 4px;
+  }
+  
+  .icon-gray {
+    color: #666;
+  }
+  
+  .ride-distance {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .ride-locations {
+    margin-bottom: 12px;
+  }
+  
+  .location-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .location-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+  }
+  
+  .green-bg {
+    background-color: #4caf50;
+  }
+  
+  .red-bg {
+    background-color: #f44336;
+  }
+  
+  .icon-white {
+    color: white;
+  }
+  
+  .ride-bid {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bid-input {
+    flex-grow: 1;
+    margin-right: 8px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .bid-input:focus {
+    border-color: #2196f3;
+  }
+  
+  .bid-button {
+    background-color: #2196f3;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bid-button:hover {
+    background-color: #1976d2;
+  }
+  
+  .requests-list {
+    margin-top: 16px;
+  }
+  .ride-accepted{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .start-ride-button{
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .start-ride-button:hover {
+    background-color: #1976d2;
+  }
+  .ride-accepted p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+  }
+  .ride-accepted button{
+    background-color: #4caf50;
+    color: white;
+  }
